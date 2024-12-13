@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Packed Assets
+  m_EditorClassIdentifier: 
+  m_GroupName: Packed Assets
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a8a4aac097b483249960cd7b78fe3c03
+  m_SerializeEntries:
+  - m_GUID: b612a67356a25444e896546781b2e7bb
+    m_Address: Assets/Prefab/Data/UserData/9.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 790bf7b8c98e6534cb5681c7b3de9af7
+    m_Address: Assets/Prefab/Data/UserData/8.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab81ac71b52b5464da3132a99b2ab2d7
+    m_Address: Assets/Prefab/Data/UserData/7.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 317549c449b438b479711fa42063fa5f
+    m_Address: Assets/Prefab/Data/UserData/6.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a876c67b26fd8544b83125c2ea7e0dab
+    m_Address: Assets/Prefab/Data/UserData/5.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 839993175787fe04a9318d92822bcf6f
+    m_Address: Assets/Prefab/Data/UserData/4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52c91acc0da733744ba9545cc772a76c
+    m_Address: Assets/Prefab/Data/UserData/3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb2d3231d5a74714aafd9c5b3d07c04e
+    m_Address: Assets/Prefab/Data/UserData/2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cde1e8615fc6f6c4687abdd09ab24473
+    m_Address: Assets/Prefab/Data/UserData/1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f400d6e1b9c48ac4490c28464957cc0b
+    m_Address: Assets/Prefab/Data/UserData/0.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e3b489a761ebe974abd96c63008c3b1d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 80d3c8cc31cceeb49bba2f2f7cdc7c14, type: 2}
+    - {fileID: 11400000, guid: 1bfaaefa29a9c52488a0fb6fa7cba9c1, type: 2}

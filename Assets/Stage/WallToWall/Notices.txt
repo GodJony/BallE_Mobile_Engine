@@ -1,0 +1,6 @@
+
+Asset uses Bungee.ttf, Bungee Shade.ttf, Bungee Hairline.ttf under Open Font License.
+
+https://fonts.google.com/specimen/Bungee
+https://fonts.google.com/specimen/Bungee+Shade
+https://fonts.google.com/specimen/Bungee+Hairline
