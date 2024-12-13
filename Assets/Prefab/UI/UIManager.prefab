@@ -4388,8 +4388,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1911661394625299022}
   - {fileID: 4864471149311883971}
+  - {fileID: 1911661394625299022}
   - {fileID: 1101539113794483375}
   m_Father: {fileID: 8508689456060614342}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6179,6 +6179,7 @@ MonoBehaviour:
   - {fileID: 4867246185094299860}
   m_checkSprite: {fileID: 21300000, guid: a6081df9ecd25864588b643ae45de7d5, type: 3}
   m_nowSkinSprite: {fileID: 21300000, guid: 44a34852a622f5c438c904593b74e6c6, type: 3}
+  m_namePopUp: 
 --- !u!1 &5904873785327809828
 GameObject:
   m_ObjectHideFlags: 0
@@ -9356,7 +9357,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -172.50005, y: 0}
+  m_AnchoredPosition: {x: -532.50006, y: 0}
   m_SizeDelta: {x: 344, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &8834277705493280288
