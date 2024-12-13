@@ -24,11 +24,6 @@ public class SettingBtn : MonoBehaviour
             case 0:
                 m_TargrtObj.SetActive(true);
                 gameObject.SetActive(false);
-                break;
-            case 1:
-                m_TargrtObj.SetActive(true);
-                gameObject.SetActive(false);
-
                 switch (m_soundType)
                 {
                     case SoundType.TYPE.BGM:
@@ -38,8 +33,20 @@ public class SettingBtn : MonoBehaviour
                         GManager.Instance.m_soundManager.MuteSFX();
                         break;
                 }
+                break;
+            case 1:
+                m_TargrtObj.SetActive(true);
+                gameObject.SetActive(false);
 
-
+                switch (m_soundType)
+                {
+                    case SoundType.TYPE.BGM:
+                        GManager.Instance.m_soundManager.NoMuteBgm();
+                        break;
+                    case SoundType.TYPE.SFX:
+                        GManager.Instance.m_soundManager.NoMuteSFX();
+                        break;
+                }
                 break;
         }
     }

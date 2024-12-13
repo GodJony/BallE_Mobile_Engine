@@ -11,11 +11,15 @@ public class PopUPBtn : MonoBehaviour
 
     public void OnPopUPBtn()
     {
+        GManager.Instance.m_soundManager.UITOuch();
+
         m_popUP.SetActive(true);
     }
 
     public void ExitBtn()
     {
+        GManager.Instance.m_soundManager.UITOuch();
+
         m_popUP.SetActive(false);
     }
 }

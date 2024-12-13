@@ -18,6 +18,7 @@ public class OnNavBtnClick : MonoBehaviour
     /// </summary>
     public void OnBtnClick()
     {
+        GManager.Instance.m_soundManager.UITOuch();
         m_nav.OnNavBtnClick(m_navMenuType);
     }
 }

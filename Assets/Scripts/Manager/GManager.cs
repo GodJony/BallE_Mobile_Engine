@@ -102,6 +102,8 @@ public class GManager : MonoBehaviour
 
     private void Awake()
     {
+        m_soundManager.PlayBGM(SceneType.TYPE.Title);
+
         if (GManager.Instance == null)
         {
             Instance = this;
@@ -183,6 +185,8 @@ public class GManager : MonoBehaviour
         m_navigation.m_navMenuList[0].SetActive(false);
         IschangeSceneFlag = false;
         IsUIManager.m_paddingImg.gameObject.SetActive(false);
+
+        m_soundManager.PlayBGM(argSceneType);
     }
 
 

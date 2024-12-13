@@ -16,6 +16,9 @@ public class UserSkinBtn : MonoBehaviour
     /// </summary>
     public void OnBtnChange()
     {
+        GManager.Instance.m_soundManager.UITOuch();
+
+
         m_uiManger = GManager.Instance.IsUIManager;
 
         m_userSkinIndex = int.Parse(gameObject.name);

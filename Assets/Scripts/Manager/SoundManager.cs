@@ -42,7 +42,11 @@ public class SoundManager : MonoBehaviour
                 m_audioSource.Play();
                 break;
         }
+    }
 
+    public void UITOuch()
+    {
+        m_soundSource.Play();
     }
 
     public void MuteSFX()

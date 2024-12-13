@@ -15,6 +15,7 @@ public class GameLoadBtn : MonoBehaviour
     /// </summary>
     public void OnBtnClick()
     {
+        GManager.Instance.m_soundManager.UITOuch();
         m_UIManager.ChangeGameBtnClick(m_SceneType);
         m_popUp.SetActive(false);
     }
