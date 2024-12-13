@@ -121,8 +121,10 @@ public class MyUIManager : MonoBehaviour
         {
             Touch _touch = Input.GetTouch(0);
 
-            if (_touch.phase == TouchPhase.Began)
+            if (_touch.phase == TouchPhase.Began)         
             {
+                GManager.Instance.m_soundManager.UITOuch();
+
                 GManager.Instance.ChangeScene(1);
             }
         }
