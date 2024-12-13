@@ -13,6 +13,8 @@ public class PopUPBtn : MonoBehaviour
     {
         GManager.Instance.m_soundManager.UITOuch();
 
+        GManager.Instance.IsUIManager.m_namePopUp = gameObject.name;
+
         m_popUP.SetActive(true);
     }
 
@@ -20,6 +22,8 @@ public class PopUPBtn : MonoBehaviour
     {
         GManager.Instance.m_soundManager.UITOuch();
 
+        GManager.Instance.IsUIManager.m_namePopUp = string.Empty;
+
         m_popUP.SetActive(false);
-    }
+    } 
 }

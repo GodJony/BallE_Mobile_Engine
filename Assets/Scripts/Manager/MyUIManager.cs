@@ -76,7 +76,14 @@ public class MyUIManager : MonoBehaviour
     /// </summary>
     [SerializeField] Sprite m_nowSkinSprite;
 
-     private void Update()
+    /// <summary>
+    /// 오픈된 팝업 이름
+    /// </summary>
+    public string m_namePopUp = string.Empty;
+
+
+
+    private void Update()
      {
         GameOver();
 
@@ -217,5 +224,16 @@ public class MyUIManager : MonoBehaviour
         m_playerSpriteRenderList[0].sprite = GManager.Instance.m_itemWidow.ReturnSprite(argIndex);
         m_playerSpriteRenderList[1].sprite = GManager.Instance.m_itemWidow.ReturnSprite(argIndex);
         m_playerSpriteRenderList[2].sprite = GManager.Instance.m_itemWidow.ReturnSprite(argIndex);
+    }
+
+    /// <summary>
+    /// 네비게이션 메뉴 혹은 다른 씬 이동 시 팝업 닫기
+    /// </summary>
+    public void ExixPopUp()
+    {
+        if (GManager.Instance.IsUIManager.m_namePopUp != string.Empty)
+        {
+            GameObject.Find($"{GManager.Instance.IsUIManager.m_namePopUp}").SetActive(false);
+        }
     }
 }

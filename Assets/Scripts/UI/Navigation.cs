@@ -21,7 +21,6 @@ public class Navigation : MonoBehaviour
     /// </summary>
     public List<GameObject> m_navMenuList;
 
-
     /// <summary>
     /// 네비게이션 버튼 클릭 시 해당 메뉴로 이동
     /// </summary>
@@ -31,6 +30,7 @@ public class Navigation : MonoBehaviour
         switch (argNavMenuType)
         {
             case NavMenuType.TYPE.Skin:
+                GManager.Instance.IsUIManager.ExixPopUp();
                 m_navMenuList[0].SetActive(true);
                 m_navMenuList[1].SetActive(false);
                 m_navMenuList[2].SetActive(false);
@@ -44,6 +44,8 @@ public class Navigation : MonoBehaviour
                 m_navOffObjList[2].SetActive(true);
                 break;
             case NavMenuType.TYPE.Home:
+                GManager.Instance.IsUIManager.ExixPopUp();
+
                 m_navMenuList[0].SetActive(false);
                 m_navMenuList[1].SetActive(true);
                 m_navMenuList[2].SetActive(false);
@@ -57,6 +59,8 @@ public class Navigation : MonoBehaviour
                 m_navOffObjList[2].SetActive(true);
                 break;
             case NavMenuType.TYPE.Setting:
+                GManager.Instance.IsUIManager.ExixPopUp();
+
                 m_navMenuList[0].SetActive(false);
                 m_navMenuList[1].SetActive(false);
                 m_navMenuList[2].SetActive(true);
