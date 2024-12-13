@@ -49,7 +49,6 @@ public class SoundManager : MonoBehaviour
 
     public void UITOuch()
     {
-        Debug.Log("버튼 클릭");
         m_soundSource.Play();
     }
 
