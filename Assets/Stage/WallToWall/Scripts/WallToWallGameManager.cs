@@ -10,6 +10,8 @@ namespace _2D_BUNDLE.WallToWall2022.Scripts {
         /// </summary>
         public static WallToWallGameManager Instance { get; private set; }
 
+        [SerializeField] GameObject m_uiObj;
+
         private void Awake()
         {
             if (Instance != null)
@@ -23,6 +25,7 @@ namespace _2D_BUNDLE.WallToWall2022.Scripts {
 
         public void GameOvered()
         {
+            m_uiObj.SetActive(false);
             GManager.Instance.IsGameOverFlag = true;
             Time.timeScale = 0f;
             ScoreManager.Instance.PlusCurScore();

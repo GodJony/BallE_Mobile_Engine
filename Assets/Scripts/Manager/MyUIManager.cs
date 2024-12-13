@@ -112,6 +112,7 @@ public class MyUIManager : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
+            GManager.Instance.m_soundManager.UITOuch();
             GManager.Instance.ChangeScene(1);
 
         }
@@ -171,6 +172,7 @@ public class MyUIManager : MonoBehaviour
 
     public void GotoMain()
     {
+        GManager.Instance.m_soundManager.UITOuch();
         GManager.Instance.LoadGameChangeScene(SceneType.TYPE.Main);
         GManager.Instance.IsGameOverFlag = false;
     }
@@ -192,6 +194,7 @@ public class MyUIManager : MonoBehaviour
     /// </summary>
     public void RetryBtnOnClick()
     {
+        GManager.Instance.m_soundManager.UITOuch();
         StartCoroutine(RetryBtnCorutine());
     }
 
