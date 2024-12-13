@@ -10,6 +10,9 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioSource m_audioSource;
     [SerializeField] private AudioClip[] m_clip;
 
+    /// <summary>
+    /// 사운드 오디오 소스?
+    /// </summary>
     [SerializeField] private GameObject m_sfxSource;
 
     /// <summary>
@@ -46,6 +49,7 @@ public class SoundManager : MonoBehaviour
 
     public void UITOuch()
     {
+        Debug.Log("버튼 클릭");
         m_soundSource.Play();
     }
 

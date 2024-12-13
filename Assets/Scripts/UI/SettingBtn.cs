@@ -19,11 +19,12 @@ public class SettingBtn : MonoBehaviour
 
     public void OnVBtnClick()
     {
+        m_TargrtObj.SetActive(true);
+        gameObject.SetActive(false);
+
         switch (index)
         {
             case 0:
-                m_TargrtObj.SetActive(true);
-                gameObject.SetActive(false);
                 switch (m_soundType)
                 {
                     case SoundType.TYPE.BGM:
@@ -35,9 +36,6 @@ public class SettingBtn : MonoBehaviour
                 }
                 break;
             case 1:
-                m_TargrtObj.SetActive(true);
-                gameObject.SetActive(false);
-
                 switch (m_soundType)
                 {
                     case SoundType.TYPE.BGM:
